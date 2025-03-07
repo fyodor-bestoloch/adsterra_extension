@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Code Finder",
+  "version": "1.7",
+  "description": "A Chrome extension to send a POST request with an ID.",
+  "icons": {
+    "16": "16.png",
+    "48": "48.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}
